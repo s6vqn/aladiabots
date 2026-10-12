@@ -18,7 +18,7 @@ local Settings = {
     PredictionTime = 0.08,
 }
 
--- sa mobile walang right click, kaya aim kapag naka-ON
+
 local MobileMode = UIS.TouchEnabled and not UIS.MouseEnabled
 
 local TorsoNames = {"UpperTorso", "Torso", "HumanoidRootPart"}
